@@ -1,0 +1,44 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App with APPI</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<!-- test input  -->
+
+
+<div class="bg">
+    
+   
+    <div>
+    <div id="description"></div>
+    <h1 id="temp"></h1>
+    <div id="location"></div>
+  </div>
+
+
+ 
+
+  <table>
+  <tr><td><br><br><input type="text" id="cityName" value="" placeholder="Enter city:  "></td></tr>
+	<!-- b: <input type="number" name="b" id="b"><br> -->
+    <tr><td> <button onclick="weatherBallon(document.getElementById('cityName').value)">Add</button></td></tr>
+  
+</table>
+
+</div>
+
+
+
+
+<script src="weather.js"></script>
+
+    
+</body>
+</html>

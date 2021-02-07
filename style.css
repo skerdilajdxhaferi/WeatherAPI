@@ -1,0 +1,57 @@
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: .1em .1em 0 rgba(0,0,0,0.3);
+    font-size: 1.3em;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(245, 245, 252, 0.562), rgba(117, 19, 93, 0.678)),  url("cloud.jpg");
+    background-size: cover;
+
+    
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 2.2em;
+    text-align: center;
+    color: #fff;
+    font-size: 4em;
+}
+
+.bg{
+    border:8px solid white;
+    padding: 5%;
+}
+
+
+td{
+    
+    text-align: center;
+}
+
+table{
+
+    padding-top: 20px;
+
+}
+
+input[type=text], button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
